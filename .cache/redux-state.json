@@ -443,7 +443,7 @@
       "resolve": "/media/data/workspace/web/northshore-buhurt",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "7d57de82116d415dac1a82a9ef7cf7d7",
+      "version": "619fc9bae5db77152969f538dccbd8bb",
       "pluginOptions": {
         "plugins": []
       },
@@ -507,7 +507,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "adeae9f2c2927b3db3559e1e7be5b798",
+        "contentDigest": "5e083f8334159a27df62cf1487888745",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -609,20 +609,20 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Starter - Dimension V2",
-        "author": "Hunter Chang",
-        "description": "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+        "title": "Northshore Knights Buhurt",
+        "author": "B Delville",
+        "description": "Buhurt welcoming page for NZ"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-18T10:09:59.588Z",
+      "buildTime": "2018-12-23T09:35:37.488Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "55390344b028ca738001261c73fcdf0b",
+        "contentDigest": "35d57285128a80b13f6dc478ffa83c55",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -647,6 +647,46 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /buhurt/": {
+      "jsonName": "buhurt-7bb",
+      "internalComponentName": "ComponentBuhurt",
+      "path": "/buhurt/",
+      "component": "/media/data/workspace/web/northshore-buhurt/src/pages/buhurt.js",
+      "componentChunkName": "component---src-pages-buhurt-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/buhurt.js",
+      "id": "SitePage /buhurt/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "642a98e1adb603a20b29413ff44e4827",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /help/": {
+      "jsonName": "help-7ab",
+      "internalComponentName": "ComponentHelp",
+      "path": "/help/",
+      "component": "/media/data/workspace/web/northshore-buhurt/src/pages/help.js",
+      "componentChunkName": "component---src-pages-help-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/help.js",
+      "id": "SitePage /help/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "21865e3474118a931bb1ee6855777c9e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -667,6 +707,46 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /northshore/": {
+      "jsonName": "northshore-8cd",
+      "internalComponentName": "ComponentNorthshore",
+      "path": "/northshore/",
+      "component": "/media/data/workspace/web/northshore-buhurt/src/pages/northshore.js",
+      "componentChunkName": "component---src-pages-northshore-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/northshore.js",
+      "id": "SitePage /northshore/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ead2dff1b80abfaadf3904eec1f9685e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /nz/": {
+      "jsonName": "nz-3d9",
+      "internalComponentName": "ComponentNz",
+      "path": "/nz/",
+      "component": "/media/data/workspace/web/northshore-buhurt/src/pages/nz.js",
+      "componentChunkName": "component---src-pages-nz-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/nz.js",
+      "id": "SitePage /nz/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "71395a145092608941374455c5c21830",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /page-2/": {
       "jsonName": "page-2-fbc",
       "internalComponentName": "ComponentPage2",
@@ -683,6 +763,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "7aeff739447718bc69dde3d5c709fe4c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /world/": {
+      "jsonName": "world-79f",
+      "internalComponentName": "ComponentWorld",
+      "path": "/world/",
+      "component": "/media/data/workspace/web/northshore-buhurt/src/pages/world.js",
+      "componentChunkName": "component---src-pages-world-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/world.js",
+      "id": "SitePage /world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ac975ac11ae2ebd57e759703586ae799",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -710,7 +810,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ab0dafb8827d193ccb570521bcfc0acd"
+    "PLUGINS_HASH": "a9d15d137137f1a774177d81e4aea670"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -726,16 +826,25 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "buhurt-7bb": "895/path---buhurt-7-bb-47a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "buhurt-1-9e7": "823/path---buhurt-1-9-e-7-9ff-NZuapzHg3X9TaN1iIixfv1W23E",
+    "buhurt-2-f74": "942/path---buhurt-2-f-74-216-NZuapzHg3X9TaN1iIixfv1W23E",
+    "buhurt-3-d14": "93/path---buhurt-3-d-14-fcc-NZuapzHg3X9TaN1iIixfv1W23E",
+    "buhurt-4-a32": "867/path---buhurt-4-a-32-087-NZuapzHg3X9TaN1iIixfv1W23E",
+    "world-79f": "961/path---world-79-f-37e-NZuapzHg3X9TaN1iIixfv1W23E",
+    "nz-3d9": "838/path---nz-3-d-9-2cb-NZuapzHg3X9TaN1iIixfv1W23E",
+    "northshore-8cd": "940/path---northshore-8-cd-b81-NZuapzHg3X9TaN1iIixfv1W23E",
+    "help-7ab": "233/path---help-7-ab-134-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/media/data/workspace/web/northshore-buhurt/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/media/data/workspace/web/northshore-buhurt/.cache/dev-404-page.js"
-    },
     "/media/data/workspace/web/northshore-buhurt/src/pages/404.js": {
       "query": "",
       "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/404.js"
+    },
+    "/media/data/workspace/web/northshore-buhurt/src/pages/buhurt.js": {
+      "query": "",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/buhurt.js"
     },
     "/media/data/workspace/web/northshore-buhurt/src/pages/index.js": {
       "query": "",
@@ -744,6 +853,26 @@
     "/media/data/workspace/web/northshore-buhurt/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/page-2.js"
+    },
+    "/media/data/workspace/web/northshore-buhurt/src/pages/world.js": {
+      "query": "",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/world.js"
+    },
+    "/media/data/workspace/web/northshore-buhurt/src/pages/nz.js": {
+      "query": "",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/nz.js"
+    },
+    "/media/data/workspace/web/northshore-buhurt/src/pages/northshore.js": {
+      "query": "",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/northshore.js"
+    },
+    "/media/data/workspace/web/northshore-buhurt/src/pages/help.js": {
+      "query": "",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/src/pages/help.js"
+    },
+    "/media/data/workspace/web/northshore-buhurt/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/media/data/workspace/web/northshore-buhurt/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
