@@ -6,6 +6,7 @@ import WorldPage from '../pages/world'
 import NZPage from '../pages/nz'
 import NorthshorePage from '../pages/northshore'
 import HelpPage from '../pages/help'
+import EventsPage from '../pages/events'
 
 class Main extends React.Component {
   render() {
@@ -39,6 +40,11 @@ class Main extends React.Component {
 
         <article id="help" className={`${this.props.article === 'help' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <HelpPage/>
+          {close}
+        </article>
+
+        <article id="events" className={`${this.props.article === 'events' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <EventsPage/>
           {close}
         </article>
 

@@ -25,6 +25,11 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-pages-events-js",
+        "jsonName": "events-0dc",
+        "path": "/events/"
+    },
+    {
         "componentChunkName": "component---src-pages-help-js",
         "jsonName": "help-7ab",
         "path": "/help/"

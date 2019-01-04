@@ -18,8 +18,8 @@ class WorldPage extends React.PureComponent {
           </p><p>
           Their ruleset is applied for many tournaments, mostly in Europe, where teams acquire points for their international ranking: Bohurt League. 
           But the major one is the famous "Battle Of The Nations®".
-          </p><p>
-          The NZ team is called "Steel Black" 
+          </p>
+          <p>
           </p>
 
 
@@ -29,8 +29,8 @@ class WorldPage extends React.PureComponent {
           The second international federation focus on a yearly competition inside a castle. They describe themselves this way:
           "The IMCF brings together the best fighters from across the globe to compete in historical medieval combat competitions. [...]
           Competitors will battle in 3 different one-on-one competition, and National teams will face off in 4 different melee categories."
-          </p><p>
-          The NZ team is called the "Steel Ferns"
+          </p>
+          <p>
           </p>
 
           <h3>Other</h3>
