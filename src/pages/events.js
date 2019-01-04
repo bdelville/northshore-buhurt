@@ -9,7 +9,7 @@ class EventPage extends React.PureComponent {
     <div>
           <h2 className="major">Upcoming Tourney</h2>
           <p align="center">
-          <iframe src="https://hithredin.my.opendatasoft.com/explore/embed/dataset/bohurt-events/map/?sort=-date&q=date%3E%23now(months%3D-1)&location=3,-30,154&static=false&datasetcard=false&scrollWheelZoom=false" 
+          <iframe src="https://hithredin.my.opendatasoft.com/explore/embed/dataset/bohurt-events/map/?sort=-date&q=date%3E%23now(months%3D-1)&location=4,-36,166&static=false&datasetcard=false&scrollWheelZoom=false" 
             width="450" height="550" frameborder="0">
           </iframe>
           </p>
