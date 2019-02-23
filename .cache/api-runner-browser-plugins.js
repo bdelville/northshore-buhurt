@@ -1,4 +1,4 @@
 module.exports = [{
-      plugin: require('/media/data/workspace/web/northshore-buhurt/gatsby-browser.js'),
+      plugin: require('/Users/benoit/perso/workspace/northshore-buhurt/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

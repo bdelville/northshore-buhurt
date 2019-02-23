@@ -19,40 +19,40 @@ class NZPage extends React.PureComponent {
         <span className="image main"><img src={nzBanner} alt=""/></span>
         <p>Existing teams of New Zealand, from North to South:</p>
 
-        <img width="100" height="100" class="image left" src={logoBCoy}/>
+        <img width="100" height="100" className="image left" src={logoBCoy}/>
         <h3>B Company - Auckland</h3>
         <p>Contact: <a href="https://www.facebook.com/AMBAAFTW/">AMBAA on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" class="image left" src={logoEEA}/>
+        <img width="100" height="100" className="image left" src={logoEEA}/>
         <h3>East Auckland Eagle - Auckland</h3>
         <p>Contact: <a href="https://www.facebook.com/East-Auckland-Eagles-HMB-1638528559544108/">East Auckland Eagle
           HMB, on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" class="image left" src={logoWAK}/>
+        <img width="100" height="100" className="image left" src={logoWAK}/>
         <h3>WAK - Hamilton</h3>
         <p>Contact: <a href="https://www.facebook.com/WAC.NZ/">Waikato Armoured Combat Inc., on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" class="image left" src={logoTAK}/>
+        <img width="100" height="100" className="image left" src={logoTAK}/>
         <h3>Titans - Tauranga</h3>
         <p>Contact: <a href="https://www.facebook.com/The-Titans-Tauranga-Armoured-Combat-605664116209410">The Tauranga
           Armoured Combat, on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" class="image left" src={logoST}/>
+        <img width="100" height="100" className="image left" src={logoST}/>
         <h3>Steel Thorns - Taranaki</h3>
         <p>Contact: <a href="https://www.facebook.com/steelthorns/">Steel Thorns, on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" class="image left" src={logoRAC}/>
+        <img width="100" height="100" className="image left" src={logoRAC}/>
         <h3>Hornets - Rotorua</h3>
         <p>Contact: <a href="https://www.facebook.com/groups/141292349717438/">Rotorua armoured combat, on Facebook</a>
         </p>
         <br/>
 
-        <img width="100" height="100" class="image left" src={logoMAC}/>
+        <img width="100" height="100" className="image left" src={logoMAC}/>
         <h3>MAC - Palmerston North</h3>
         <p>Contact: <a href="https://www.facebook.com/manawatuarmouredcombat/">Manawatu Armoured Combat, on Facebook</a>
         </p>
