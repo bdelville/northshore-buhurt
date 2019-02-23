@@ -1,0 +1,52 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-buhurt-js",
+        "jsonName": "buhurt-7bb",
+        "path": "/buhurt/"
+    },
+    {
+        "componentChunkName": "component---src-pages-events-js",
+        "jsonName": "events-0dc",
+        "path": "/events/"
+    },
+    {
+        "componentChunkName": "component---src-pages-help-js",
+        "jsonName": "help-7ab",
+        "path": "/help/"
+    },
+    {
+        "componentChunkName": "component---src-pages-northshore-js",
+        "jsonName": "northshore-8cd",
+        "path": "/northshore/"
+    },
+    {
+        "componentChunkName": "component---src-pages-nz-js",
+        "jsonName": "nz-3d9",
+        "path": "/nz/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-2-js",
+        "jsonName": "page-2-fbc",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-world-js",
+        "jsonName": "world-79f",
+        "path": "/world/"
+    }
+]
