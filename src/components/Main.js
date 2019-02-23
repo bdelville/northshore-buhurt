@@ -11,39 +11,51 @@ import EventsPage from '../pages/events'
 class Main extends React.Component {
   render() {
 
-    let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
+    let close = <div className="close" onClick={() => {
+      this.props.onCloseArticle()
+    }}></div>
 
     return (
-      <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
+      <div id="main" style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
-        <article id="buhurt" 
-        className={`${this.props.article === 'buhurt' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} 
-        style={{display:'none'}}>
+        <article id="buhurt"
+                 className={`${this.props.article === 'buhurt' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
+                 style={{ display: 'none' }}>
           <BuhurtPage/>
           {close}
         </article>
 
-        <article id="world" className={`${this.props.article === 'world' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-         <WorldPage/>
-         {close}
+        <article id="world"
+                 className={`${this.props.article === 'world' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
+                 style={{ display: 'none' }}>
+          <WorldPage/>
+          {close}
         </article>
 
-        <article id="nz" className={`${this.props.article === 'nz' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="nz"
+                 className={`${this.props.article === 'nz' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
+                 style={{ display: 'none' }}>
           <NZPage/>
           {close}
         </article>
 
-        <article id="northshore" className={`${this.props.article === 'northshore' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="northshore"
+                 className={`${this.props.article === 'northshore' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
+                 style={{ display: 'none' }}>
           <NorthshorePage/>
           {close}
         </article>
 
-        <article id="help" className={`${this.props.article === 'help' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="help"
+                 className={`${this.props.article === 'help' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
+                 style={{ display: 'none' }}>
           <HelpPage/>
           {close}
         </article>
 
-        <article id="events" className={`${this.props.article === 'events' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="events"
+                 className={`${this.props.article === 'events' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
+                 style={{ display: 'none' }}>
           <EventsPage/>
           {close}
         </article>
@@ -58,7 +70,7 @@ Main.propTypes = {
   article: PropTypes.string,
   articleTimeout: PropTypes.bool,
   onCloseArticle: PropTypes.func,
-  timeout: PropTypes.bool
+  timeout: PropTypes.bool,
 }
 
 export default Main

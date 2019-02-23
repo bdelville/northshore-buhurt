@@ -7,7 +7,7 @@ import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
 
-  let content;
+  let content
 
   if (location && location.pathname === '/') {
     content = (
@@ -43,9 +43,8 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
-            ]}
-          >
-            <html lang="en" />
+            ]}>
+            <html lang="en"/>
           </Helmet>
           {content}
         </>
