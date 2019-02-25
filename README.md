@@ -1,6 +1,11 @@
 # northshore-buhurt
 
-Build with command:
-npm run build
+Static website to promote buhurt in New Zealand.
+Hosted here: https://nz-buhurt.netlify.com/
 
+# Build & develop
+
+```
 gatsby develop
+npm run build
+```
