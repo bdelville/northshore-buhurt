@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Northshore Knights Buhurt",
+    title: "Buhurt - New Zealand",
     author: "B Delville",
     description: "Buhurt welcoming page for NZ"
   },
