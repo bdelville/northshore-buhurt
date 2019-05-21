@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
-    <p className="copyright">Buhurt Northshore NZ Built with:
+    <p className="copyright">Buhurt NZ Built with:
       <a href="https://html5up.net">HTML5 UP</a> and
       <a href="https://www.gatsbyjs.org/">Gatsby.js</a>
     </p>

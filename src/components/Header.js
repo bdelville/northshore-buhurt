@@ -9,15 +9,15 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Northshore Knights</h1>
-                <p>Discover Buhurt in Northshore and in New Zealand</p>
+                <p>Discover Buhurt in New Zealand</p>
             </div>
         </div>
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('buhurt')}}>The sport</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('world')}}>In the World</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('nz')}}>In New Zealand</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('northshore')}}>In NorthShore</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('nz')}}>New Zealand</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('northshore')}}>New Team</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('help')}}>Get Started</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('events')}}>Where to go?</a></li>
             </ul>

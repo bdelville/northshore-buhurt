@@ -16,15 +16,13 @@ class BuhurtPage extends React.PureComponent {
 
         <h3>Historicity</h3>
         <p>The modernized sport Buhurt is a free interpretation of medieval buhurts, a format of the competition that
-          happened
-          before or in parallel of the well known jousting tournaments. To get <a
+          happened before or in parallel of the well known jousting tournaments. To get <a
             href="https://academyofhistoricalmartialarts.weebly.com/blog/history-of-european-martial-arts-part-xi-buhurt">more
             information</a>
         </p>
         <p>The armour the fighter wears follow a relatively strict set of rules to ensure the full kit of one fighter is
-          accurate to a
-          specific warrior from a region at a specific time.
-          The fighting techniques, however, are free of any historical constraint.
+          accurate to a specific warrior from a region at a specific time.
+          The fighting techniques, however, are free from any historical constraint.
         </p>
         <p>For modern safety and other reasons, the rules are also different from what they used to be.</p>
 
