@@ -8,8 +8,8 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Northshore Knights</h1>
-                <p>Discover Buhurt in New Zealand</p>
+                <h1>Buhurt - New Zealand</h1>
+                <p>Fight like a knight in New Zealand</p>
             </div>
         </div>
         <nav>
