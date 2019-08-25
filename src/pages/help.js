@@ -9,19 +9,20 @@ class HelpPage extends React.PureComponent {
         <h2 className="major">Get started</h2>
         <span className="image main"><img src={headerImg} alt=""/></span>
 
+        <h3>Contact</h3>
+        The easiest way is going to the facebook pages (Cf: New Zealand TAB with full contacts). If you prefer another way, please contact this email:
+        <p><a href="mailto:buhurt.nz@outlook.com">Email buhurt.nz@outlook.com</a></p>
+
         <h3>Starting</h3>
         <p>To get your mind, the best thing to do is watching some video, then come to one of the tournament in NZ.
           Don't be shy and show your interest once there, one of our main objective is the growth of the sport!</p>
 
         <p>Some great source of videos to watch:</p>
         <ul>
-          <li><a href="https://www.youtube.com/user/WMFCRussia">WFMC knights channel with many fights from Russia</a>
-          </li>
+          <li><a href="https://www.youtube.com/user/WMFCRussia">WFMC knights channel with many fights from Russia</a></li>
           <li><a href="https://www.youtube.com/channel/UCyobEXFvKBsW274v0wSafNg">Buhurt Tech channel</a></li>
-          <li><a href="https://www.youtube.com/channel/UC4bRYf6nhkqM3UdRQ7AdoFA">All the fights from New Zealand!</a>
-          </li>
-          <li><a href="https://www.youtube.com/user/FranceMedieval">France buhurt channel to see fights in another
-            country</a></li>
+          <li><a href="https://www.youtube.com/channel/UC4bRYf6nhkqM3UdRQ7AdoFA">All the fights from New Zealand!</a></li>
+          <li><a href="https://www.youtube.com/user/FranceMedieval">France buhurt channel to see fights in another country</a></li>
         </ul>
 
         <h3>Training</h3>
