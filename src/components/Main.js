@@ -39,13 +39,6 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="northshore"
-                 className={`${this.props.article === 'northshore' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
-                 style={{ display: 'none' }}>
-          <NorthshorePage/>
-          {close}
-        </article>
-
         <article id="help"
                  className={`${this.props.article === 'help' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
                  style={{ display: 'none' }}>

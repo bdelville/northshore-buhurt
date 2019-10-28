@@ -10,23 +10,25 @@ class WorldPage extends React.PureComponent {
         <h2 className="major">World Federations</h2>
 
         <h3>HMB</h3>
-        <span className="image"><img width="100" height="100" src={hmbLogo} alt="" href="http://botn.info/en/"/></span>
+        <span className="image"><a href="http://botn.info/en/">
+          <img width="100" src={hmbLogo} alt=""/>
+        </a></span>
         <p>
           Maybe the largest federation for buhurt it describes itself this way:
           "The main task of the HMB International Association is to develop historical medieval battle (HMB) as a
           worldwide sport and cultural movement and make it popular for people of all ages."
         </p><p>
-        Their ruleset is applied for many tournaments, mostly in Europe, where teams acquire points for their
-        international ranking in the Bohurt League.
-        But the major one is the famous "Battle Of The Nations®".
-      </p>
-        <p>
+          Their ruleset is applied for many tournaments, mostly in Europe, where teams acquire points for their
+          international ranking in the Bohurt League.
+          But the major one is the famous "Battle Of The Nations®".
         </p>
+        <p></p>
 
 
         <h3>IMCF</h3>
-        <span className="image"><img width="100" height="100" src={imcfLogo} alt=""
-                                     href="https://www.medieval-combat.net/"/></span>
+        <span className="image"><a href="http://botn.info/en/">
+          <img height="100" src={imcfLogo} alt=""/>
+        </a></span>
         <p>
           Another international federation focus on a yearly competition inside a castle. They describe themselves
           this way:
@@ -35,11 +37,10 @@ class WorldPage extends React.PureComponent {
           Competitors will battle in 3 different one-on-one competition, and National teams will face off in 4 different
           melee categories."
         </p>
-        <p>
-        </p>
+        <p></p>
 
         <h3>Other</h3>
-        <p>There are other federations such as AMCF, but they are limited to a location or not relevant to NZ.</p>
+        <p>There are other federations, but they are limited to a location or not relevant to NZ.</p>
       </div>
     )
   }

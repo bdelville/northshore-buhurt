@@ -1,8 +1,11 @@
 import React from 'react'
 
-import nzBanner from '../images/pic03.jpg'
-import logoBCoy from '../images/logo-bcoys.jpg'
-import logoEEA from '../images/logo-eagles.png'
+import nzBanner from '../images/header-northshore.jpg'
+
+import logoHMBNZ from '../images/logo-hmbnz.png'
+import logoNZFCMC from '../images/logo-nzfcmc.jpg'
+
+import logoAAC from '../images/logo-aac.png'
 import logoWAK from '../images/logo-wac.jpg'
 import logoTAK from '../images/logo-tac.jpg'
 import logoMAC from '../images/logo-mac.jpg'
@@ -17,26 +20,32 @@ class NZPage extends React.PureComponent {
       <div>
         <h2 className="major">Buhurt in NZ</h2>
         <span className="image main"><img src={nzBanner} alt=""/></span>
-        <p>Existing teams of New Zealand, from North to South:</p>
 
-        <img width="100" height="100" className="image left" src={logoBCoy}/>
-        <h3>B Company - Auckland</h3>
-        <p>Contact: <a href="https://www.facebook.com/AMBAAFTW/">AMBAA on Facebook</a></p>
+        <h2 className="major">NZ Federations</h2>
+        <img width="100" height="100" className="image left" src={logoHMBNZ}/>
+        <h3>HMBNZ: represent HMB in New Zealand</h3>
+        <p>Contact: <a href="https://www.facebook.com/groups/581930541906560/">HMBNZ on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" className="image left" src={logoEEA}/>
-        <h3>East Auckland Eagle - Auckland</h3>
-        <p>Contact: <a href="https://www.facebook.com/East-Auckland-Eagles-HMB-1638528559544108/">East Auckland Eagle
-          HMB, on Facebook</a></p>
+        <img width="100" height="100" className="image left" src={logoNZFCMC}/>
+        <h3>NZFCMC: represent IMCF in New Zealand</h3>
+        <p>Contact: <a href="https://www.facebook.com/groups/nzfcmc/">NZFCMC on Facebook</a></p>
+        <br/>
+         
+        <h2 className="major">Teams from North to South</h2>
+
+        <img width="100" height="100" className="image left" src={logoAAC}/>
+        <h3>AAC: Auckland</h3>
+        <p>Contact: <a href="https://www.facebook.com/AAC/">Auckland Armoured Combat on Facebook</a></p>
         <br/>
 
         <img width="100" height="100" className="image left" src={logoWAK}/>
-        <h3>WAK - Hamilton</h3>
+        <h3>WAC - Hamilton</h3>
         <p>Contact: <a href="https://www.facebook.com/WAC.NZ/">Waikato Armoured Combat Inc., on Facebook</a></p>
         <br/>
 
         <img width="100" height="100" className="image left" src={logoTAK}/>
-        <h3>Titans - Tauranga</h3>
+        <h3>TAC: Tauranga</h3>
         <p>Contact: <a href="https://www.facebook.com/The-Titans-Tauranga-Armoured-Combat-605664116209410">The Tauranga
           Armoured Combat, on Facebook</a></p>
         <br/>
@@ -72,7 +81,11 @@ class NZPage extends React.PureComponent {
 
         <h3>Join a team!</h3>
         <p>There are a couple of isolated and experienced fighters without team yet (Chatham Island, Christchurch,
-          Whangarei, ...). So it is always possible to start a team, or join other fighters in a tournament.</p>
+          Whangarei, ...). So it is always possible to start a team, or join other fighters in a tournament.
+          For getting in touch, just reach the federation or the team around you.
+        </p>
+
+
       </div>
     )
   }
