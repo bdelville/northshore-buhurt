@@ -22,12 +22,10 @@ class NZPage extends React.PureComponent {
         <span className="image main"><img src={nzBanner} alt=""/></span>
 
         <h2 className="major">NZ Federations</h2>
-        <img width="100" height="100" className="image left" src={logoHMBNZ}/>
         <h3>HMBNZ: represent HMB in New Zealand</h3>
         <p>Contact: <a href="https://www.facebook.com/groups/581930541906560/">HMBNZ on Facebook</a></p>
         <br/>
 
-        <img width="100" height="100" className="image left" src={logoNZFCMC}/>
         <h3>NZFCMC: represent IMCF in New Zealand</h3>
         <p>Contact: <a href="https://www.facebook.com/groups/nzfcmc/">NZFCMC on Facebook</a></p>
         <br/>
